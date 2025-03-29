@@ -15,8 +15,6 @@ patches:
     name: istory-app-deploy
 
 images:
-- name: dangtong76/istory
-  newTag: latest
 - name: ekchoi3912/istory
   newName: ekchoi3912/istory
   newTag: "22"
