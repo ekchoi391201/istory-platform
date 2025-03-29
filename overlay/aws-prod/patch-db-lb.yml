@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: istory-db-lb
+spec:
+  type: ExternalName
+  externalName: istory-db.c7yg2u02qwvx.ap-northeast-2.rds.amazonaws.com
+  ports:
+    - name: mysql-db-lb
+      protocol: TCP
+      port: 3306
