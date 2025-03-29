@@ -17,7 +17,7 @@ patches:
 images:
 - name: ekchoi3912/istory
   newName: ekchoi3912/istory
-  newTag: "22"
+  newTag: "23"
     
 generatorOptions:
   disableNameSuffixHash: true
