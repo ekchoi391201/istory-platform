@@ -14,11 +14,11 @@ patches:
   target:
     kind: Deployment
     name: istory-app-deploy
-    
+
 images:
 - name: ekchoi3912/istory
   newName: ekchoi3912/istory
-  newTag: "lastest"
+  newTag: "latest"
     
 generatorOptions:
   disableNameSuffixHash: true
