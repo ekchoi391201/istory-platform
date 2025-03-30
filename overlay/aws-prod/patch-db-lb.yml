@@ -4,7 +4,7 @@ metadata:
   name: istory-db-lb
 spec:
   type: ExternalName
-  externalName: istory-db.c7yg2u02qwvx.ap-northeast-2.rds.amazonaws.com
+  externalName: mydb.infra.local
   ports:
     - name: mysql-db-lb
       protocol: TCP
