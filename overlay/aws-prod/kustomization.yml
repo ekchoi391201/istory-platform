@@ -1,6 +1,6 @@
+#- ../../base/istory-db
 resources:
 - ../../base/istory-app
-#- ../../base/istory-db
 - patch-db-lb.yml
 
 namespace: istory-prod
@@ -18,7 +18,7 @@ patches:
 images:
 - name: ekchoi3912/istory
   newName: ekchoi3912/istory
-  newTag: "latest"
+  newTag: "4"
     
 generatorOptions:
   disableNameSuffixHash: true
